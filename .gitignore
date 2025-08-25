@@ -5,3 +5,5 @@ __pycache__/
 classes.json
 tech_electives.json
 observed_prereq_codes.json
+large_batch_results.json
+tech_electives_results.json
