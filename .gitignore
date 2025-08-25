@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.vscode
+classes.json
+tech_electives.json
+observed_prereq_codes.json
