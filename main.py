@@ -1,411 +1,324 @@
-import requests
-import time
-import re
-from typing import Set, List, Optional, Dict, Tuple, Any
 import json
+import re
+from typing import Dict, Set, List, Tuple, Optional
+from collections import defaultdict, deque
 
-class CornellTechElectiveChecker:
-    def __init__(self, acceptable_prerequisites: List[str]):
+class PrerequisiteChecker:
+    def __init__(self, courses_json_path: str, acceptable_base_courses: List[str]):
         """
-        Initialize the checker with a list of acceptable prerequisite courses.
+        Initialize with a JSON file of courses and list of acceptable base courses.
         
         Args:
-            acceptable_prerequisites: List of course codes that qualify as acceptable prerequisites
-                                    (e.g., ['CS 2110', 'CS 2112', 'MATH 2940'])
+            courses_json_path: Path to JSON file with course data
+            acceptable_base_courses: List of courses that are acceptable prerequisites
         """
-        self.base_url = "https://classes.cornell.edu/api/2.0"
-        self.acceptable_prerequisites = set(acceptable_prerequisites)
-        self.cache = {}  # Cache to avoid redundant API calls
-        self.last_request_time = 0
+        self.courses = {}
+        self.prerequisite_graph = defaultdict(set)  # course -> set of prerequisites
+        self.acceptable_base = set(acceptable_base_courses)
+        self.load_courses(courses_json_path)
+        self.build_prerequisite_graph()
         
-    def _rate_limit(self):
-        """Ensure we don't exceed 1 request per second."""
-        current_time = time.time()
-        time_since_last = current_time - self.last_request_time
-        if time_since_last < 1:
-            time.sleep(1 - time_since_last)
-        self.last_request_time = time.time()
-    
-    def _parse_course_code(self, course_str: str) -> Tuple[str, str]:
-        """
-        Parse a course string into subject and number.
-        
-        Args:
-            course_str: Course string like "CS 2110" or "MATH 2940"
-            
-        Returns:
-            Tuple of (subject, number) or (None, None) if parse fails
-        """
-        match = re.match(r'([A-Z]+)\s*(\d+)', course_str.upper())
-        if match:
-            return match.group(1), match.group(2)
-        return None, None
-    
-    def _fetch_course_data(self, subject: str, course_num: str, roster: str = "FA25") -> Optional[Dict]:
-        """
-        Fetch course data from the Cornell API.
-        
-        Args:
-            subject: Course subject (e.g., 'CS')
-            course_num: Course number (e.g., '2110')
-            roster: Semester roster (default 'FA25' for Fall 2025)
-            
-        Returns:
-            Course data dictionary or None if not found
-        """
-        cache_key = f"{roster}_{subject}_{course_num}"
-        if cache_key in self.cache:
-            return self.cache[cache_key]
-        
-        self._rate_limit()
-        
+    def load_courses(self, json_path: str):
+        """Load courses from JSON file."""
         try:
-            url = f"{self.base_url}/search/classes.json"
-            params = {
-                'roster': roster,
-                'subject': subject
-            }
-            
-            response = requests.get(url, params=params)
-            response.raise_for_status()
-            
-            data = response.json()
-            
-            # Find the specific course in the results
-            if 'data' in data and 'classes' in data['data']:
-                for course in data['data']['classes']:
-                    if course.get('catalogNbr', '').strip() == course_num:
-                        self.cache[cache_key] = course
-                        return course
-            
-            self.cache[cache_key] = None
-            return None
-            
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+                for course in data:
+                    course_code = f"{course['subject']} {course['number']}"
+                    self.courses[course_code] = course.get('prerequisites', '')
+            print(f"Loaded {len(self.courses)} courses from {json_path}")
         except Exception as e:
-            print(f"Error fetching {subject} {course_num}: {e}")
-            return None
-    
-    def _extract_prerequisites(self, course_data: Dict, roster: str = "FA25") -> Set[str]:
+            print(f"Error loading JSON: {e}")
+            
+    def parse_prerequisites(self, prereq_text: str) -> Set[str]:
         """
-        Extract prerequisite courses from course data.
+        Parse prerequisite text to extract course codes.
         
         Args:
-            course_data: Course data from API
-            roster: Semester roster to determine which field to use
+            prereq_text: Text describing prerequisites
             
         Returns:
             Set of prerequisite course codes
         """
         prerequisites = set()
         
-        # Determine which field to use based on roster
-        # For Fall 2025 and later, use catalogPrereq
-        # For earlier, use catalogPrereqCoreq
-        year = int(roster[2:4])
-        is_fall = roster.startswith('FA')
-        
-        if year > 25 or (year == 25 and is_fall):
-            prereq_text = course_data.get('catalogPrereq', '')
-        else:
-            prereq_text = course_data.get('catalogPrereqCoreq', '')
-        
-        if not prereq_text:
-            # Also check the enrollGroups for prerequisite info
-            enroll_groups = course_data.get('enrollGroups', [])
-            for group in enroll_groups:
-                if isinstance(group, dict):
-                    # Check various possible fields for prerequisites
-                    for field in ['prerequisite', 'prerequisites', 'prereq']:
-                        if field in group:
-                            prereq_text += " " + str(group[field])
-        
-        if not prereq_text:
-            return prerequisites
-        
-        # Parse prerequisites from text
-        # Look for patterns like "CS 2110", "MATH 2940", "CS2110", etc.
-        # Handle both with and without spaces
-        pattern = r'([A-Z]+)\s*(\d+)'
-        matches = re.findall(pattern, prereq_text.upper())
+        # Pattern to match course codes like "MATH 1920" or "MATH 2210-MATH 2240"
+        pattern = r'([A-Z]+)\s+(\d{4})'
+        matches = re.findall(pattern, prereq_text)
         
         for subject, number in matches:
-            # Skip course numbers that are too long (likely years or other data)
-            if len(number) <= 4:
-                prerequisites.add(f"{subject} {number}")
-        
+            prerequisites.add(f"{subject} {number}")
+            
         return prerequisites
     
-    def is_tech_elective(self, course: str, roster: str = "FA25", 
-                        visited: Optional[Set[str]] = None, depth: int = 0, max_depth: int = 5,
-                        debug: bool = False) -> bool:
-        """
-        Check if a course is a technical elective by recursively checking prerequisites.
-        
-        Args:
-            course: Course code (e.g., "CS 4820")
-            roster: Semester roster (default 'FA25')
-            visited: Set of already visited courses (for cycle detection)
-            depth: Current recursion depth
-            max_depth: Maximum recursion depth to prevent infinite loops
-            debug: Print debug information
+    def build_prerequisite_graph(self):
+        """Build a directed graph of prerequisites."""
+        for course, prereq_text in self.courses.items():
+            prerequisites = self.parse_prerequisites(prereq_text)
+            self.prerequisite_graph[course] = prerequisites
             
-        Returns:
-            True if the course is a technical elective, False otherwise
-        """
-        if visited is None:
-            visited = set()
-        
-        # Prevent infinite recursion
-        if depth > max_depth:
-            return False
-        
-        # Check if this course is directly in the acceptable list
-        if course.upper() in (p.upper() for p in self.acceptable_prerequisites):
-            if debug:
-                print(f"  {'  '*depth}✓ {course} is in acceptable prerequisites list")
-            return True
-        
-        # Avoid cycles
-        if course in visited:
-            return False
-        
-        visited.add(course)
-        
-        # Parse course code
-        subject, number = self._parse_course_code(course)
-        if not subject or not number:
-            if debug:
-                print(f"  {'  '*depth}✗ Could not parse course code: {course}")
-            return False
-        
-        # Fetch course data
-        course_data = self._fetch_course_data(subject, number, roster)
-        if not course_data:
-            if debug:
-                print(f"  {'  '*depth}✗ No data found for {course}")
-            return False
-        
-        # Extract prerequisites
-        prerequisites = self._extract_prerequisites(course_data, roster)
-        
-        if debug:
-            print(f"  {'  '*depth}→ {course} has prerequisites: {prerequisites if prerequisites else 'None'}")
-        
-        # Check if any prerequisite qualifies
-        for prereq in prerequisites:
-            if self.is_tech_elective(prereq, roster, visited.copy(), depth + 1, max_depth, debug):
-                return True
-        
-        return False
+        print(f"Built prerequisite graph with {len(self.prerequisite_graph)} courses")
     
-    def check_single_course_debug(self, course: str, roster: str = "FA25") -> bool:
+    def is_tech_elective(self, course: str, visited: Optional[Set[str]] = None) -> bool:
         """
-        Check a single course with debug output to see the prerequisite chain.
+        Check if a course is a technical elective by checking if it or its
+        prerequisites are in the acceptable base courses.
         
         Args:
             course: Course code to check
-            roster: Semester roster
+            visited: Set of already visited courses (for cycle detection)
             
         Returns:
-            True if tech elective, False otherwise
+            True if the course is a technical elective
         """
-        print(f"\nDebug check for {course}:")
-        result = self.is_tech_elective(course, roster, debug=True)
-        print(f"Result: {course} is {'a' if result else 'NOT a'} technical elective\n")
-        return result
+        if visited is None:
+            visited = set()
+            
+        # Base case: course is directly in acceptable list
+        if course in self.acceptable_base:
+            return True
+            
+        # Avoid cycles
+        if course in visited:
+            return False
+            
+        visited.add(course)
+        
+        # Check prerequisites recursively
+        prerequisites = self.prerequisite_graph.get(course, set())
+        for prereq in prerequisites:
+            if self.is_tech_elective(prereq, visited.copy()):
+                return True
+                
+        return False
     
-    def check_multiple_courses(self, courses: List[str], roster: str = "FA25", 
-                              show_progress: bool = True) -> Dict[str, bool]:
+    def get_prerequisite_chain(self, course: str, visited: Optional[Set[str]] = None, 
+                              depth: int = 0) -> List[str]:
         """
-        Check multiple courses for technical elective status.
+        Get the complete prerequisite chain for a course.
         
         Args:
-            courses: List of course codes
-            roster: Semester roster
-            show_progress: Whether to show progress updates
+            course: Course code
+            visited: Set of already visited courses
+            depth: Current recursion depth
             
         Returns:
-            Dictionary mapping course codes to their tech elective status
+            List of strings showing the prerequisite chain
+        """
+        if visited is None:
+            visited = set()
+            
+        chain = []
+        indent = "  " * depth
+        
+        if course in self.acceptable_base:
+            chain.append(f"{indent}✓ {course} (acceptable prerequisite)")
+            return chain
+            
+        if course in visited:
+            chain.append(f"{indent}↻ {course} (already visited - cycle)")
+            return chain
+            
+        visited.add(course)
+        prerequisites = self.prerequisite_graph.get(course, set())
+        
+        if not prerequisites:
+            chain.append(f"{indent}• {course} (no prerequisites)")
+        else:
+            chain.append(f"{indent}→ {course} requires: {', '.join(sorted(prerequisites))}")
+            for prereq in sorted(prerequisites):
+                chain.extend(self.get_prerequisite_chain(prereq, visited.copy(), depth + 1))
+                
+        return chain
+    
+    def check_courses(self, courses_to_check: List[str]) -> Dict[str, bool]:
+        """
+        Check multiple courses for tech elective status.
+        
+        Args:
+            courses_to_check: List of course codes
+            
+        Returns:
+            Dictionary mapping courses to their tech elective status
         """
         results = {}
-        total = len(courses)
-        
-        for i, course in enumerate(courses, 1):
-            if show_progress:
-                print(f"Checking {course}... ({i}/{total})")
-            results[course] = self.is_tech_elective(course, roster)
-            
-            # Show estimated time remaining for large batches
-            if show_progress and i % 10 == 0 and total > 50:
-                elapsed = self.last_request_time - self._start_time if hasattr(self, '_start_time') else 0
-                if elapsed > 0:
-                    rate = i / elapsed
-                    remaining = (total - i) / rate if rate > 0 else 0
-                    print(f"  Estimated time remaining: {remaining:.1f} seconds")
-        
-        return results  # THIS WAS MISSING!
+        for course in courses_to_check:
+            results[course] = self.is_tech_elective(course)
+        return results
     
-    def check_courses_to_json(self, courses: List[str], roster: str = "FA25", 
-                             output_file: str = "tech_electives_results.json",
-                             show_progress: bool = True) -> Dict:
+    def generate_report(self, courses_to_check: List[str], output_file: str = "results.json"):
         """
-        Check multiple courses and save results to JSON file.
+        Generate a detailed report for multiple courses.
         
         Args:
-            courses: List of course codes
-            roster: Semester roster
-            output_file: Path to output JSON file
-            show_progress: Whether to show progress updates
-            
-        Returns:
-            Dictionary with results and metadata
+            courses_to_check: List of course codes
+            output_file: Path to save JSON report
         """
-        import datetime
+        print("\n" + "="*60)
+        print("TECHNICAL ELECTIVE CHECK REPORT")
+        print("="*60)
         
-        self._start_time = time.time()
+        results = {}
+        tech_electives = []
+        non_tech_electives = []
         
-        # Handle empty input
-        if not courses:
-            print("No courses provided to check.")
-            return None
+        for course in courses_to_check:
+            is_tech = self.is_tech_elective(course)
+            results[course] = is_tech
+            
+            if is_tech:
+                tech_electives.append(course)
+            else:
+                non_tech_electives.append(course)
+                
+            print(f"\n{course}: {'✓ TECH ELECTIVE' if is_tech else '✗ NOT TECH ELECTIVE'}")
+            chain = self.get_prerequisite_chain(course)
+            for line in chain[:5]:  # Show first 5 levels
+                print(line)
+            if len(chain) > 5:
+                print("  ... (chain continues)")
         
-        print(f"Starting check of {len(courses)} courses...")
-        print(f"Note: Due to API rate limiting (1 req/sec), this may take up to {len(courses)*0.5:.1f} seconds")
-        print(f"(Actual time will be less due to caching of repeated prerequisites)\n")
-        
-        # Get results (simple dict of course -> bool)
-        results = self.check_multiple_courses(courses, roster, show_progress)
-        
-        # Handle complete failure
-        if results is None:
-            print("ERROR: Failed to check courses")
-            return None
-        
-        # Separate tech electives from non-tech electives
-        tech_electives = [course for course, is_tech in results.items() if is_tech]
-        non_tech_electives = [course for course, is_tech in results.items() if not is_tech]
-        
-        # Create detailed JSON output
-        output_data = {
-            "metadata": {
-                "total_courses_checked": len(courses),
-                "tech_electives_found": len(tech_electives),
-                "non_tech_electives": len(non_tech_electives),
-                "roster": roster,
-                "acceptable_prerequisites": list(self.acceptable_prerequisites),
-                "check_date": datetime.datetime.now().isoformat(),
-                "execution_time_seconds": time.time() - self._start_time
-            },
+        # Save to JSON
+        report = {
+            "acceptable_prerequisites": list(self.acceptable_base),
+            "courses_checked": len(courses_to_check),
+            "tech_electives_found": len(tech_electives),
             "results": results,
             "tech_electives": tech_electives,
             "non_tech_electives": non_tech_electives
         }
         
-        # Save to JSON file
-        try:
-            with open(output_file, 'w') as f:
-                json.dump(output_data, f, indent=2)
+        with open(output_file, 'w') as f:
+            json.dump(report, f, indent=2)
             
-            print(f"\n✓ Results saved to {output_file}")
-            print(f"  Tech Electives Found: {len(tech_electives)}")
-            print(f"  Non-Tech Electives: {len(non_tech_electives)}")
-            print(f"  Total Time: {output_data['metadata']['execution_time_seconds']:.1f} seconds")
-            
-        except Exception as e:
-            print(f"ERROR: Failed to save results to {output_file}: {e}")
-            return output_data  # Return data even if file save fails
-        
-        return output_data
+        print("\n" + "="*60)
+        print(f"SUMMARY: {len(tech_electives)}/{len(courses_to_check)} courses are tech electives")
+        print(f"Results saved to: {output_file}")
+        print("="*60)
     
-    def load_courses_from_file(self, filepath: str, file_format: str = "auto") -> List[str]:
+    def find_all_tech_electives(self) -> List[str]:
         """
-        Load course codes from a file.
+        Find ALL courses that qualify as tech electives.
         
-        Args:
-            filepath: Path to file containing course codes
-            file_format: 'txt' (one per line), 'csv', or 'auto' to detect
-            
         Returns:
-            List of course codes
+            List of all courses that are tech electives
         """
-        courses = []
+        tech_electives = []
+        for course in self.courses.keys():
+            if self.is_tech_elective(course):
+                tech_electives.append(course)
+        return sorted(tech_electives)
+    
+    def visualize_graph_stats(self):
+        """Print statistics about the prerequisite graph."""
+        print("\n" + "="*60)
+        print("PREREQUISITE GRAPH STATISTICS")
+        print("="*60)
         
-        if file_format == "auto":
-            file_format = "csv" if filepath.endswith('.csv') else "txt"
+        # Courses with no prerequisites
+        no_prereqs = [c for c, p in self.prerequisite_graph.items() if not p]
+        print(f"Courses with no prerequisites: {len(no_prereqs)}")
         
-        try:
-            if file_format == "csv":
-                import csv
-                with open(filepath, 'r') as f:
-                    reader = csv.reader(f)
-                    for row in reader:
-                        # Assume course codes are in first column
-                        if row and row[0].strip():
-                            courses.append(row[0].strip())
-            else:  # txt format
-                with open(filepath, 'r') as f:
-                    courses = [line.strip() for line in f if line.strip()]
-            
-            print(f"Loaded {len(courses)} courses from {filepath}")
-            return courses
-            
-        except Exception as e:
-            print(f"Error loading file {filepath}: {e}")
-            return []
+        # Most common prerequisites
+        prereq_counts = defaultdict(int)
+        for prereqs in self.prerequisite_graph.values():
+            for prereq in prereqs:
+                prereq_counts[prereq] += 1
+        
+        print("\nTop 10 most common prerequisites:")
+        for prereq, count in sorted(prereq_counts.items(), key=lambda x: x[1], reverse=True)[:10]:
+            print(f"  {prereq}: required by {count} courses")
+        
+        # Courses with most prerequisites
+        print("\nCourses with most prerequisites:")
+        sorted_by_prereqs = sorted(self.prerequisite_graph.items(), 
+                                  key=lambda x: len(x[1]), reverse=True)[:5]
+        for course, prereqs in sorted_by_prereqs:
+            print(f"  {course}: {len(prereqs)} prerequisites")
 
 
-# Example usage
-if __name__ == "__main__":
-    # Define acceptable prerequisite courses for tech electives
-    # IMPORTANT: Update this list with YOUR actual acceptable prerequisites!
-    # These are just examples - you need to replace with the real requirements
-    acceptable_prereqs = [
-        "CS 2110",  # Object-Oriented Programming and Data Structures
-        "CS 2112",  # Object-Oriented Design and Data Structures - Honors
-        "CS 2800",  # Discrete Structures
-        "CS 3110",  # Data Structures and Functional Programming
-        "CS 3410",  # Computer System Organization and Programming
-        "CS 3420",  # Embedded Systems
-        "MATH 2940",  # Linear Algebra for Engineers
-        "ECE 2300",  # Digital Logic and Computer Organization
-        # Add ALL acceptable prerequisites from your requirements here!
+def main():
+    """Main function to run the prerequisite checker."""
+    
+    # Path to your JSON file
+    json_file = "courses.json"  # Change this to your JSON file path
+    
+    # Define acceptable base prerequisite courses
+    # These are courses that, if found in a prerequisite chain, make a course a tech elective
+    acceptable_prerequisites = [
+        # Core CS courses
+        "CS 2110",   # Object-Oriented Programming
+        "CS 2112",   # OOP Honors
+        "CS 2800",   # Discrete Structures
+        "CS 3110",   # Functional Programming
+        "CS 3410",   # Computer System Organization
+        
+        # Core Math courses
+        "MATH 1920", # Multivariable Calculus
+        "MATH 2210", # Linear Algebra
+        "MATH 2220", # Multivariable Calculus
+        "MATH 2230", # Theoretical Linear Algebra
+        "MATH 2940", # Linear Algebra for Engineers
+        
+        # Core Engineering
+        "ECE 2300",  # Digital Logic
+        "ENGRD 2110", # Object-Oriented Programming
+        
+        # Add more as needed based on your requirements
     ]
     
-    # Create checker instance
-    checker = CornellTechElectiveChecker(acceptable_prereqs)
+    # Initialize checker
+    print("Initializing Prerequisite Checker...")
+    checker = PrerequisiteChecker(json_file, acceptable_prerequisites)
     
-    # Example 1: Debug a single course to see why it's failing
-    print("=" * 60)
-    print("DEBUGGING MODE - Checking prerequisite chain:")
-    print("=" * 60)
-    checker.check_single_course_debug("CS 4820")
+    # Show graph statistics
+    checker.visualize_graph_stats()
     
-    # Example 2: Check multiple courses with JSON output
-    print("=" * 60)
-    print("BATCH CHECK:")
-    print("=" * 60)
-    courses_to_check = ["CS 4820", "CS 4410", "INFO 3300", "CS 4700", "CS 4780"]
-    output = checker.check_courses_to_json(
-        courses_to_check, 
-        roster="FA25",
-        output_file="tech_electives_results.json"
-    )
+    # Check specific courses
+    courses_to_check = [
+        "MATH 4310",  # Linear Algebra
+        "MATH 4410",  # Combinatorics
+        "CS 4820",    # Algorithms (if in your JSON)
+        "MATH 3040",  # Prove It!
+        "MATH 3110",  # Analysis
+    ]
     
-    if output:
-        print(f"\nFound {output['metadata']['tech_electives_found']} tech electives out of {len(courses_to_check)} courses")
-        if output['metadata']['tech_electives_found'] == 0:
-            print("\n⚠️  No tech electives found! Possible issues:")
-            print("   1. The acceptable_prereqs list might be incomplete")
-            print("   2. The courses might not have prerequisites in the API")
-            print("   3. The prerequisite chain might not reach the acceptable list")
-            print("\nRun debug mode on a specific course to see its prerequisite chain.")
+    # Generate detailed report
+    print("\nChecking specific courses...")
+    checker.generate_report(courses_to_check, "tech_electives_report.json")
     
-    # Example 3: Load and check 1,000+ courses from a file
-    # courses_from_file = checker.load_courses_from_file("courses_to_check.txt")
-    # if courses_from_file:
-    #     output = checker.check_courses_to_json(
-    #         courses_from_file,
-    #         roster="FA25",
-    #         output_file="batch_results_1000.json",
-    #         show_progress=True
-    #     )
+    # Find ALL tech electives in the dataset
+    print("\nFinding all tech electives in the dataset...")
+    all_tech_electives = checker.find_all_tech_electives()
+    print(f"Found {len(all_tech_electives)} total tech electives")
+    
+    # Save complete list
+    with open("all_tech_electives.json", 'w') as f:
+        json.dump({
+            "total_courses": len(checker.courses),
+            "tech_electives_count": len(all_tech_electives),
+            "tech_electives": all_tech_electives
+        }, f, indent=2)
+    print("Complete list saved to: all_tech_electives.json")
+    
+    # Interactive mode (optional)
+    print("\n" + "="*60)
+    print("Interactive Mode - Enter course codes to check (or 'quit' to exit)")
+    print("="*60)
+    while True:
+        course = input("\nEnter course code (e.g., MATH 4310): ").strip().upper()
+        if course == 'QUIT':
+            break
+        if course in checker.courses:
+            is_tech = checker.is_tech_elective(course)
+            print(f"{course}: {'✓ TECH ELECTIVE' if is_tech else '✗ NOT TECH ELECTIVE'}")
+            print("\nPrerequisite chain:")
+            chain = checker.get_prerequisite_chain(course)
+            for line in chain[:10]:
+                print(line)
+        else:
+            print(f"Course {course} not found in database")
+
+
+if __name__ == "__main__":
+    main()

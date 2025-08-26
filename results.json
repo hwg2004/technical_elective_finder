@@ -1,0 +1,5037 @@
+{
+  "CS": {
+    "total_courses": 98,
+    "courses": [
+      {
+        "subject": "CS",
+        "number": "1110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "1112",
+        "prerequisites": "MATH 1110 or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "1132",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "1133",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "1710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "1998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "2024",
+        "prerequisites": "one programming course or equivalent programming experience."
+      },
+      {
+        "subject": "CS",
+        "number": "2110",
+        "prerequisites": "CS 1110 or CS 1112 or equivalent course on programming in a procedural language."
+      },
+      {
+        "subject": "CS",
+        "number": "2112",
+        "prerequisites": "excellent performance in CS 1110, CS 1112 or equivalent course in Java or C++, or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "2800",
+        "prerequisites": "MATH 1110 or equivalent, CS 1110 or CS 1112 or equivalent., or"
+      },
+      {
+        "subject": "CS",
+        "number": "2850",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "3110",
+        "prerequisites": "CS 2110 or equivalent programming experience. Prerequisite or corequisite: CS 2800."
+      },
+      {
+        "subject": "CS",
+        "number": "3410",
+        "prerequisites": "CS 2110 or equivalent programming experience."
+      },
+      {
+        "subject": "CS",
+        "number": "3700",
+        "prerequisites": "CS 2110/ENGRD 2110 and CS 2800, or by permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "3780",
+        "prerequisites": "probability theory (e.g. BTRY 3080, CS 2800, ECON 3130, ENGRD 2700, MATH 4710) and linear algebra (e.g. MATH 2210, MATH 2310, MATH 2940), single-variable calculus (e.g. MATH 1110, MATH 1920) and programming proficiency (e.g. CS 2110)."
+      },
+      {
+        "subject": "CS",
+        "number": "4090",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "4110",
+        "prerequisites": "CS 3110 or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "4210",
+        "prerequisites": "MATH 2210, MATH 2230-MATH 2240, MATH 2310, or MATH 2940 or equivalent and one additional mathematics course numbered 3000 or above."
+      },
+      {
+        "subject": "CS",
+        "number": "4320",
+        "prerequisites": "CS 2110, CS 2800."
+      },
+      {
+        "subject": "CS",
+        "number": "4411",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "4414",
+        "prerequisites": "CS 2110, CS 3410, or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "4420",
+        "prerequisites": "ECE 3140/CS 3420 or CS 3410. Students should feel comfortable working with a hardware description language such as Verilog, SystemVerilog, or VHDL."
+      },
+      {
+        "subject": "CS",
+        "number": "4620",
+        "prerequisites": "CS 2110 or ENGRD 2110, and MATH 1910 or MATH 1120, and MATH 2940 or MATH 2210 or MATH 2310 or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "4621",
+        "prerequisites": "Prerequisite or corequisite: CS 4620."
+      },
+      {
+        "subject": "CS",
+        "number": "4701",
+        "prerequisites": "at least one of the following courses: CS 3700, CS 3780, CS 4670, CS 4740, ECE 4200, ORIE 3741, STSCI 3740, or their equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "4745",
+        "prerequisites": "LING 4424 and one other 3000 level or above linguistics course."
+      },
+      {
+        "subject": "CS",
+        "number": "4750",
+        "prerequisites": "CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 or their equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "4754",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "4775",
+        "prerequisites": "BTRY 3010 and CS 2110 or equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "4787",
+        "prerequisites": "CS 3780/CS 5780, CS 2110 or equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "4820",
+        "prerequisites": "CS 2800, CS 3110."
+      },
+      {
+        "subject": "CS",
+        "number": "4830",
+        "prerequisites": "CS 4820."
+      },
+      {
+        "subject": "CS",
+        "number": "4997",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "4998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "4999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5110",
+        "prerequisites": "CS 3110 or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "5112",
+        "prerequisites": "A strong foundation in programming, typically demonstrated by successful completion of basic undergraduate-level computer science courses."
+      },
+      {
+        "subject": "CS",
+        "number": "5154",
+        "prerequisites": "graduate standing in CS, or CS majors who have taken CS 3110 or CS 4120, or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "5306",
+        "prerequisites": "advanced coursework in Computer Science."
+      },
+      {
+        "subject": "CS",
+        "number": "5320",
+        "prerequisites": "CS 2110 or CS 2800."
+      },
+      {
+        "subject": "CS",
+        "number": "5342",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5411",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5414",
+        "prerequisites": "CS 4410 or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "5416",
+        "prerequisites": "CS 2110, CS 3410, or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "5424",
+        "prerequisites": "CS 1110 or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "5434",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5470",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5620",
+        "prerequisites": "CS 2110 or ENGRD 2110, and MATH 1910 or MATH 1120, and MATH 2940 or MATH 2210 or MATH 2310 or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "5621",
+        "prerequisites": "Prerequisite or corequisite: CS 5620."
+      },
+      {
+        "subject": "CS",
+        "number": "5650",
+        "prerequisites": "intermediate programming ability in C# or other object-oriented lagnuages. Familiarity with 3D game engines or strong desire to learn. Basic linear algebra."
+      },
+      {
+        "subject": "CS",
+        "number": "5670",
+        "prerequisites": "CS 2110, CS 2800, MATH 1920 or equivalent and MATH 2310 or MATH 2940 or equivalent (Ithaca only)."
+      },
+      {
+        "subject": "CS",
+        "number": "5672",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5682",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5727",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5750",
+        "prerequisites": "CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 or their equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "5754",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5777",
+        "prerequisites": "CS 3780/CS 5780, CS 2110 or equivalents."
+      },
+      {
+        "subject": "CS",
+        "number": "5780",
+        "prerequisites": "CS 2800, probability theory (e.g. BTRY 3080, ECON 3130, MATH 4710, ENGRD 2700), linear algebra (e.g. MATH 2940), calculus (e.g. MATH 1920), and programming proficiency (e.g. CS 2110)."
+      },
+      {
+        "subject": "CS",
+        "number": "5781",
+        "prerequisites": "CS 2110, or equivalent programming experience."
+      },
+      {
+        "subject": "CS",
+        "number": "5785",
+        "prerequisites": "CS 2800 or equivalent and basic familiarity with Matlab or Python, or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "5787",
+        "prerequisites": "CS 5785, ECE 5414, ORIE 5750."
+      },
+      {
+        "subject": "CS",
+        "number": "5820",
+        "prerequisites": "CS 4820 or graduate level students."
+      },
+      {
+        "subject": "CS",
+        "number": "5830",
+        "prerequisites": "CS 2800 or equivalent, CS 4810 or mathematical maturity, or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "5998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "5999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6006",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6117",
+        "prerequisites": "CS 3110."
+      },
+      {
+        "subject": "CS",
+        "number": "6120",
+        "prerequisites": "CS 4120 or CS 5120."
+      },
+      {
+        "subject": "CS",
+        "number": "6125",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6158",
+        "prerequisites": "at least one of the following courses or their equivalents: CS 3110, CS 4120, CS 5154 and at least one of the following courses or their equivalents: CS 3780, CS 4740, CS 4782."
+      },
+      {
+        "subject": "CS",
+        "number": "6210",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6410",
+        "prerequisites": "CS 4410 or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "6703",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6741",
+        "prerequisites": "CS 2110 or equivalent programming experience, CS 3780/CS 5780 or CS 6780 or equivalent."
+      },
+      {
+        "subject": "CS",
+        "number": "6742",
+        "prerequisites": "CS 3110 or equivalent programming experience, a course in artificial intelligence or any relevant subfield (e.g., NLP, information retrieval, machine learning)."
+      },
+      {
+        "subject": "CS",
+        "number": "6752",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6758",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6783",
+        "prerequisites": "CS 3780/CS 5780 or CS 4786/CS 5786 or CS 6780 or equivalent, or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "6784",
+        "prerequisites": "CS 3780 or CS 5780 or equivalents or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "6820",
+        "prerequisites": "CS 4820 or graduate level students."
+      },
+      {
+        "subject": "CS",
+        "number": "6830",
+        "prerequisites": "general ease with algorithms and elementary probability theory, maturity with mathematical proofs (ability to read and write mathematical proofs)."
+      },
+      {
+        "subject": "CS",
+        "number": "6832",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6840",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "6861",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7090",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7190",
+        "prerequisites": "CS 6110 or permission of instructor."
+      },
+      {
+        "subject": "CS",
+        "number": "7290",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7390",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7490",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7690",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7790",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7792",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7794",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7796",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7800",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7890",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CS",
+        "number": "7999",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "INFO": {
+    "total_courses": 72,
+    "courses": [
+      {
+        "subject": "INFO",
+        "number": "1170",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "1200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "1300",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "1998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "2040",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "2300",
+        "prerequisites": "INFO 1300 and CS 1110 or CS 1112."
+      },
+      {
+        "subject": "INFO",
+        "number": "2450",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "2950",
+        "prerequisites": "one course is core statistics (MATH 1710 or equivalent) and one course in core programming (CS 1110 or CS 1112) or permission of instructor."
+      },
+      {
+        "subject": "INFO",
+        "number": "3350",
+        "prerequisites": "INFO 2950."
+      },
+      {
+        "subject": "INFO",
+        "number": "3450",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "3900",
+        "prerequisites": "STSCI 2100 or PSYCH 2500 or SOC 3010 or ECON 3110 or equivalent."
+      },
+      {
+        "subject": "INFO",
+        "number": "3950",
+        "prerequisites": "INFO 2950 or INFO 2951 or equivalent."
+      },
+      {
+        "subject": "INFO",
+        "number": "4125",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4140",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4240",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4301",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4320",
+        "prerequisites": "INFO 2300 or INFO 2310."
+      },
+      {
+        "subject": "INFO",
+        "number": "4410",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4420",
+        "prerequisites": "INFO 3450 or equivalent."
+      },
+      {
+        "subject": "INFO",
+        "number": "4430",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4505",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4555",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4561",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4997",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "4998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5001",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5125",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5140",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5170",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5230",
+        "prerequisites": "Prior coursework in ethical thinking, or permission of instructor."
+      },
+      {
+        "subject": "INFO",
+        "number": "5235",
+        "prerequisites": "coursework in ML, data science, law and policy or ethics, calculus and algebra, algorithms, and python programming. Recommended prerequisite: coursework in theory and optimization."
+      },
+      {
+        "subject": "INFO",
+        "number": "5240",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5265",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5306",
+        "prerequisites": "advanced coursework in Computer Science."
+      },
+      {
+        "subject": "INFO",
+        "number": "5310",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5320",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5321",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5340",
+        "prerequisites": "intermediate programming ability in C# or other object-oriented lagnuages. Familiarity with 3D game engines or strong desire to learn. Basic linear algebra."
+      },
+      {
+        "subject": "INFO",
+        "number": "5345",
+        "prerequisites": "CS 1110 or equivalent."
+      },
+      {
+        "subject": "INFO",
+        "number": "5355",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5356",
+        "prerequisites": "CS 2800 or equivalent."
+      },
+      {
+        "subject": "INFO",
+        "number": "5360",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5370",
+        "prerequisites": "Recommended prerequisite: ENGRD 2700, CS 1380, or equivalent, and experience programming in Python. Recommended corequisite: INFO 5430 or CS 5785."
+      },
+      {
+        "subject": "INFO",
+        "number": "5410",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5430",
+        "prerequisites": "INFO 5410."
+      },
+      {
+        "subject": "INFO",
+        "number": "5431",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5505",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5556",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5600",
+        "prerequisites": "basic knowledge of machine learning, deep learning techniques and coding experience."
+      },
+      {
+        "subject": "INFO",
+        "number": "5610",
+        "prerequisites": "CS 5785 /ECE 5414 /ORIE 5750 or demonstrated foundational programing and machine learning knowledge."
+      },
+      {
+        "subject": "INFO",
+        "number": "5900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5905",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "5920",
+        "prerequisites": "TECHIE 5901."
+      },
+      {
+        "subject": "INFO",
+        "number": "5940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6125",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6350",
+        "prerequisites": "INFO 6010 or permission of instructor."
+      },
+      {
+        "subject": "INFO",
+        "number": "6410",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6420",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6455",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6520",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "6610",
+        "prerequisites": "HD 5760 or GOVT 6029 or SOC 6020 or equivalent.Recommended prerequisite: some R or similar (e.g., python) programming experience."
+      },
+      {
+        "subject": "INFO",
+        "number": "6742",
+        "prerequisites": "CS 3110 or equivalent programming experience, a course in artificial intelligence or any relevant subfield (e.g., NLP, information retrieval, machine learning)."
+      },
+      {
+        "subject": "INFO",
+        "number": "6940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "7060",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "7090",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "7900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "INFO",
+        "number": "9900",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "MATH": {
+    "total_courses": 61,
+    "courses": [
+      {
+        "subject": "MATH",
+        "number": "1006",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "1011",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "1101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "1106",
+        "prerequisites": "three years of high school mathematics, including trigonometry and logarithms, or a precalculus course (e.g., MATH 1101). No prior knowledge of calculus is required."
+      },
+      {
+        "subject": "MATH",
+        "number": "1110",
+        "prerequisites": "three years of high school mathematics, including trigonometry and logarithms, or a precalculus course (e.g., MATH 1101)."
+      },
+      {
+        "subject": "MATH",
+        "number": "1120",
+        "prerequisites": "MATH 1110, excellent performance in MATH 1106, or equivalent AP credit."
+      },
+      {
+        "subject": "MATH",
+        "number": "1300",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "1710",
+        "prerequisites": "High school mathematics. No previous familiarity with computers presumed."
+      },
+      {
+        "subject": "MATH",
+        "number": "1890",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "1910",
+        "prerequisites": "Three years high school mathematics, including trigonometry and logarithms, and at least one course in differential and integral calculus (e.g., MATH 1110), or equivalent AP credit."
+      },
+      {
+        "subject": "MATH",
+        "number": "1920",
+        "prerequisites": "MATH 1910 or equivalent AP credit."
+      },
+      {
+        "subject": "MATH",
+        "number": "2210",
+        "prerequisites": "MATH 1110-MATH 1120 with high performance, equivalent AP credit, or permission of department."
+      },
+      {
+        "subject": "MATH",
+        "number": "2220",
+        "prerequisites": "MATH 2210."
+      },
+      {
+        "subject": "MATH",
+        "number": "2230",
+        "prerequisites": "MATH 1110-MATH 1120 with a grade of A- or better, equivalent AP credit, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "2310",
+        "prerequisites": "MATH 1106, MATH 1110, or equivalent AP credit."
+      },
+      {
+        "subject": "MATH",
+        "number": "2930",
+        "prerequisites": "MATH 1920."
+      },
+      {
+        "subject": "MATH",
+        "number": "2940",
+        "prerequisites": "MATH 1920."
+      },
+      {
+        "subject": "MATH",
+        "number": "3040",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "3110",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "3210",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "3270",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "3320",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4040",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4130",
+        "prerequisites": "high level of performance in a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4220",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4250",
+        "prerequisites": "MATH 2210, MATH 2230-MATH 2240, MATH 2310, or MATH 2940 or equivalent and one additional mathematics course numbered 3000 or above."
+      },
+      {
+        "subject": "MATH",
+        "number": "4310",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4330",
+        "prerequisites": "high level of performance in MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4370",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4410",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4520",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4530",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4710",
+        "prerequisites": "MATH 1110-MATH 1120, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "4900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "4901",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "4997",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "5080",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "5220",
+        "prerequisites": "a semester of linear algebra (MATH 2210, MATH 2230, MATH 2310, or MATH 2940) and a semester of multivariable calculus (MATH 2220, MATH 2240, or MATH 1920), or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "5250",
+        "prerequisites": "MATH 2210, MATH 2230-MATH 2240, MATH 2310, or MATH 2940 or equivalent, and one additional mathematics course numbered 3000 or above."
+      },
+      {
+        "subject": "MATH",
+        "number": "5410",
+        "prerequisites": "MATH 2210, MATH 2230, MATH 2310, or MATH 2940, or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "6110",
+        "prerequisites": "strong performance in an undergraduate analysis course at the level of MATH 4140, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6150",
+        "prerequisites": "MATH 4130, MATH 4140, or the equivalent, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6210",
+        "prerequisites": "undergraduate analysis and linear algebra at the level of MATH 4130 and MATH 4310."
+      },
+      {
+        "subject": "MATH",
+        "number": "6260",
+        "prerequisites": "MATH 4130-MATH 4140 or equivalent."
+      },
+      {
+        "subject": "MATH",
+        "number": "6310",
+        "prerequisites": "strong performance in an undergraduate abstract algebra course at the level of MATH 4340, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6330",
+        "prerequisites": "MATH 6310-MATH 6320, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6390",
+        "prerequisites": "basic knowledge of algebra and linear algebra at the honors level (e.g., MATH 4330-MATH 4340)."
+      },
+      {
+        "subject": "MATH",
+        "number": "6410",
+        "prerequisites": "MATH 4410 or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6520",
+        "prerequisites": "strong performance in analysis (e.g., MATH 4130 and/or MATH 4140), linear algebra (e.g., MATH 4310), and point-set topology (e.g., MATH 4530), or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6530",
+        "prerequisites": "MATH 6510, or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "6710",
+        "prerequisites": "knowledge of Lebesgue integration theory, at least on real line. Students can learn this material by taking MATH 4130-MATH 4140 or MATH 6210."
+      },
+      {
+        "subject": "MATH",
+        "number": "6840",
+        "prerequisites": "A course in first-order logic (e.g., MATH 4810/PHIL 4310 or MATH 4860/CS 4860), or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "7130",
+        "prerequisites": "some basic measure theory, Lp spaces, and (basic) functional analysis (e.g., MATH 6110). Advanced undergraduates who have taken MATH 4130-MATH 4140 and linear algebra (e.g., MATH 4310 or MATH 4330), but not MATH 6110, will need permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "7290",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "7370",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "7410",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "7670",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "7740",
+        "prerequisites": "basic mathematical statistics (STSCI 6730/MATH 6730 or equivalent) and measure theoretic probability (MATH 6710), or permission of instructor."
+      },
+      {
+        "subject": "MATH",
+        "number": "7810",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MATH",
+        "number": "7900",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "ECON": {
+    "total_courses": 54,
+    "courses": [
+      {
+        "subject": "ECON",
+        "number": "1110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "1120",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "2040",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "2100",
+        "prerequisites": "ECON 1110."
+      },
+      {
+        "subject": "ECON",
+        "number": "2475",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "2801",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "3030",
+        "prerequisites": "ECON 1110, ECON 1120 and calculus."
+      },
+      {
+        "subject": "ECON",
+        "number": "3040",
+        "prerequisites": "ECON 1110, ECON 1120 and calculus."
+      },
+      {
+        "subject": "ECON",
+        "number": "3110",
+        "prerequisites": "MATH 1106 or MATH 1110."
+      },
+      {
+        "subject": "ECON",
+        "number": "3120",
+        "prerequisites": "ECON 3110 or ECON 3130."
+      },
+      {
+        "subject": "ECON",
+        "number": "3130",
+        "prerequisites": "MATH 1110 - MATH 1120 and ECON 1110 or ECON 1120."
+      },
+      {
+        "subject": "ECON",
+        "number": "3250",
+        "prerequisites": "PUBPOL 2000 or equivalent and PUBPOL 3100 or equivalent."
+      },
+      {
+        "subject": "ECON",
+        "number": "3300",
+        "prerequisites": "ECON 1110 and ECON 1120."
+      },
+      {
+        "subject": "ECON",
+        "number": "3440",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "3545",
+        "prerequisites": "ECON 3040 and ECON 3120 or ECON 3140 or equivalent."
+      },
+      {
+        "subject": "ECON",
+        "number": "3610",
+        "prerequisites": "PUBPOL 2000 (or equivalent) or with instructor permission."
+      },
+      {
+        "subject": "ECON",
+        "number": "3720",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "3805",
+        "prerequisites": "ECON 1110 or its equivalent."
+      },
+      {
+        "subject": "ECON",
+        "number": "3850",
+        "prerequisites": "ECON 1110."
+      },
+      {
+        "subject": "ECON",
+        "number": "3855",
+        "prerequisites": "microeconomics course."
+      },
+      {
+        "subject": "ECON",
+        "number": "3910",
+        "prerequisites": "introductory microeconomics and statistics or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "4140",
+        "prerequisites": "ECON 3140 or equivalent."
+      },
+      {
+        "subject": "ECON",
+        "number": "4290",
+        "prerequisites": "ECON 3030, ECON 3040, and ECON 3110, or ECON 3130."
+      },
+      {
+        "subject": "ECON",
+        "number": "4410",
+        "prerequisites": "ECON 3030, ECON 3140 or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "4660",
+        "prerequisites": "ECON 3030 or equivalent."
+      },
+      {
+        "subject": "ECON",
+        "number": "4903",
+        "prerequisites": "ECON 3110 and ECON 3120, or equivalents."
+      },
+      {
+        "subject": "ECON",
+        "number": "4998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "4999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "6090",
+        "prerequisites": "at least three years of undergraduate mathematics, including at least two semesters of formal mathematics such as analysis, and at least four semesters of economics beyond intermediate microeconomic and macroeconomic theory, or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "6130",
+        "prerequisites": "at least three years of undergraduate mathematics, including at least two semesters of formal mathematics such as analysis, and at least four semesters of economics beyond intermediate microeconomic and macroeconomic theory, or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "6170",
+        "prerequisites": "at least three years of undergraduate mathematics, including at least two semesters of formal mathematics such as analysis, and at least four semesters of economics beyond intermediate microeconomic and macroeconomic theory, or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "6190",
+        "prerequisites": "at least three years of undergraduate mathematics, including at least two semesters of formal mathematics such as analysis, and at least four semesters of economics beyond intermediate microeconomic and macroeconomic theory, or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "6590",
+        "prerequisites": "ILRLE 7490 or AEM 7100 (or equivalent)."
+      },
+      {
+        "subject": "ECON",
+        "number": "6990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7115",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7150",
+        "prerequisites": "core economics graduate courses, or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "7260",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7265",
+        "prerequisites": "ECON 6090, ECON 6130, ECON 6200."
+      },
+      {
+        "subject": "ECON",
+        "number": "7510",
+        "prerequisites": "ECON 6090, ECON 6100."
+      },
+      {
+        "subject": "ECON",
+        "number": "7580",
+        "prerequisites": "economics graduate core or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "7660",
+        "prerequisites": "completion of first-year Ph.D. course sequence in AEM or ECON or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "7670",
+        "prerequisites": "basic Ph.D. level courses in macroeconomics and applied econometrics."
+      },
+      {
+        "subject": "ECON",
+        "number": "7711",
+        "prerequisites": "Intermediate Microeconomics, Intermediate Statistics or Econometrics (through multiple regression and limited dependent variable models), or permission of instructor."
+      },
+      {
+        "subject": "ECON",
+        "number": "7745",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7841",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7842",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7843",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7845",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7846",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7847",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7848",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7849",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7850",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECON",
+        "number": "7854",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "MAE": {
+    "total_courses": 58,
+    "courses": [
+      {
+        "subject": "MAE",
+        "number": "1170",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "1900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "2020",
+        "prerequisites": "PHYS 1112. Corequisite: MATH 1920."
+      },
+      {
+        "subject": "MAE",
+        "number": "2030",
+        "prerequisites": "ENGRD 2020 and MATH 2930. Corequisite:  MATH 2940."
+      },
+      {
+        "subject": "MAE",
+        "number": "2210",
+        "prerequisites": "MATH 1920 and PHYS 1112."
+      },
+      {
+        "subject": "MAE",
+        "number": "3050",
+        "prerequisites": "MAE 2030. Prerequisite or corequisite: ENGRD 2210 or BEE 2220, MAE 3230 or CHEME 3230 or BEE 3310 or CEE 3310."
+      },
+      {
+        "subject": "MAE",
+        "number": "3230",
+        "prerequisites": "ENGRD 2020, MAE 2030. Prerequisite or corequisite: ENGRD 2210."
+      },
+      {
+        "subject": "MAE",
+        "number": "3260",
+        "prerequisites": "MATH 2930, MATH 2940, and MAE 2030."
+      },
+      {
+        "subject": "MAE",
+        "number": "3270",
+        "prerequisites": "ENGRD 2020, MATH 2940, CS 1112 or CS 1110."
+      },
+      {
+        "subject": "MAE",
+        "number": "3870",
+        "prerequisites": "PHYS 2213, MAE 2030, and MATH 2930."
+      },
+      {
+        "subject": "MAE",
+        "number": "4020",
+        "prerequisites": "MAE 3230 (or equivalent) or MAE 3050, MAE 3270."
+      },
+      {
+        "subject": "MAE",
+        "number": "4021",
+        "prerequisites": "MAE 3230 (or equivalent) or MAE 3050, MAE 3270."
+      },
+      {
+        "subject": "MAE",
+        "number": "4060",
+        "prerequisites": "MATH 2930, MATH 2940, and MAE 2030."
+      },
+      {
+        "subject": "MAE",
+        "number": "4240",
+        "prerequisites": "ENGRD 2020 or ENGRD 2610."
+      },
+      {
+        "subject": "MAE",
+        "number": "4272",
+        "prerequisites": "MAE 3230, MAE 3240."
+      },
+      {
+        "subject": "MAE",
+        "number": "4291",
+        "prerequisites": "Prerequisite or corequisite: MAE 4300."
+      },
+      {
+        "subject": "MAE",
+        "number": "4300",
+        "prerequisites": "Prerequisite or corequisite: M.E. Senior Design."
+      },
+      {
+        "subject": "MAE",
+        "number": "4341",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "4351",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "4480",
+        "prerequisites": "BME 3410 or BME 3210 or permission of instructor."
+      },
+      {
+        "subject": "MAE",
+        "number": "4540",
+        "prerequisites": "Prerequisite or corequisite: undergraduate-level coursework in thermodynamics, electromagnetism, and orbital mechanics."
+      },
+      {
+        "subject": "MAE",
+        "number": "4660",
+        "prerequisites": "ENGRD 2020, MATH 2930, BIOMG 1350 and BME 2010 or BIOG 1440."
+      },
+      {
+        "subject": "MAE",
+        "number": "4700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "4730",
+        "prerequisites": "MATH 2940 or equivalent."
+      },
+      {
+        "subject": "MAE",
+        "number": "4760",
+        "prerequisites": "CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 or their equivalents."
+      },
+      {
+        "subject": "MAE",
+        "number": "4780",
+        "prerequisites": "CHEME 3720 or MAE 3260."
+      },
+      {
+        "subject": "MAE",
+        "number": "4900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5020",
+        "prerequisites": "MAE 3230 (or equivalent) or MAE 3050, MAE 3270."
+      },
+      {
+        "subject": "MAE",
+        "number": "5065",
+        "prerequisites": "MATH 2930, MATH 2940, and MAE 2030."
+      },
+      {
+        "subject": "MAE",
+        "number": "5240",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5250",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5270",
+        "prerequisites": "equivalent CAD-based design course plus 2.5 years of engineering mathematics, including probability and statistics."
+      },
+      {
+        "subject": "MAE",
+        "number": "5310",
+        "prerequisites": "ENGRD 2210 and MAE 3240."
+      },
+      {
+        "subject": "MAE",
+        "number": "5340",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5459",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5540",
+        "prerequisites": "Prerequisite or corequisite: undergraduate-level coursework in thermodynamics, electromagnetism, and orbital mechanics."
+      },
+      {
+        "subject": "MAE",
+        "number": "5700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "5730",
+        "prerequisites": "MATH 2940 or equivalent."
+      },
+      {
+        "subject": "MAE",
+        "number": "5780",
+        "prerequisites": "CHEME 3720 or MAE 3260."
+      },
+      {
+        "subject": "MAE",
+        "number": "5910",
+        "prerequisites": "Prerequisite or corequisite: enrollment in group-based project with strong system design component approved by course instructor."
+      },
+      {
+        "subject": "MAE",
+        "number": "5930",
+        "prerequisites": "ENGRD 2700 or CEE 3040, SYSEN 5100, or permission of instructor."
+      },
+      {
+        "subject": "MAE",
+        "number": "5940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6010",
+        "prerequisites": "MAE 3230 or higher, in addition to basic knowledge in vector calculus, ordinary differential equations, partial differential equations, and complex variable analysis."
+      },
+      {
+        "subject": "MAE",
+        "number": "6110",
+        "prerequisites": "competence in MATLAB, C or Fortran."
+      },
+      {
+        "subject": "MAE",
+        "number": "6340",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6450",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6630",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6670",
+        "prerequisites": "ENGRD 2020."
+      },
+      {
+        "subject": "MAE",
+        "number": "6770",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6800",
+        "prerequisites": "MAE 3260, MAE 3780, CS 1109, CS 1110, or equivalent(s)."
+      },
+      {
+        "subject": "MAE",
+        "number": "6870",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6949",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "6998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "7999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "MAE",
+        "number": "8900",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "ORIE": {
+    "total_courses": 60,
+    "courses": [
+      {
+        "subject": "ORIE",
+        "number": "3150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "3300",
+        "prerequisites": "MATH 2210 or MATH 2940."
+      },
+      {
+        "subject": "ORIE",
+        "number": "3500",
+        "prerequisites": "ENGRD 2700 or equivalent."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "4130",
+        "prerequisites": "ORIE 3500, ORIE 3510."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4160",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "4340",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "4570",
+        "prerequisites": "ORIE 3300, ORIE 3500, and ORIE 3510."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4580",
+        "prerequisites": "CS 2110/ENGRD 2110. Corequisite: ORIE 3500 with the permission of instructor."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4630",
+        "prerequisites": "engineering math through MATH 2940, ENGRD 2700 and ORIE 3500, and knowledge of R and multiple linear regression equivalent to ORIE 3120. No previous knowledge of finance required."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4820",
+        "prerequisites": "ENGRD 2700, ORIE 3300 or equivalent."
+      },
+      {
+        "subject": "ORIE",
+        "number": "4900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "4990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "4999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5130",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5140",
+        "prerequisites": "Prerequisite or corequisite: enrollment in group-based project with strong system design component approved by course instructor."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5160",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5210",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5220",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5235",
+        "prerequisites": "coursework in ML, data science, law and policy or ethics, calculus and algebra, algorithms, and python programming. Recommended prerequisite: coursework in theory and optimization."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5240",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5252",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5253",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5254",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5255",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5256",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5257",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5258",
+        "prerequisites": "ENGRD 2700 and familiarity with Python."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5260",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5290",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5300",
+        "prerequisites": "MATH 2940."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5340",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5355",
+        "prerequisites": "Recommended prerequisite: ENGRD 2700, CS 1380, or equivalent, and experience programming in Python. Recommended corequisite: INFO 5430 or CS 5785."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5380",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5500",
+        "prerequisites": "ENGRD 2700."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5530",
+        "prerequisites": "ENGRD 2700."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5570",
+        "prerequisites": "ORIE 3150, ORIE 3300, and ORIE 3500, or equivalents."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5580",
+        "prerequisites": "ORIE 3500 or equivalent, CS 2110/ENGRD 2110. For students with insufficient background in probability, ORIE 3500 must be taken in parallel."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5581",
+        "prerequisites": "ORIE 3500 or equivalent, CS 2110/ENGRD 2110. For students with insufficient background in probability, ORIE 3500 must be taken in parallel."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5600",
+        "prerequisites": "ORIE 3510."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5630",
+        "prerequisites": "MATH 2940, ENGRD 2700, ORIE 3500, ORIE 3120."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5750",
+        "prerequisites": "CS 2800 or equivalent and basic familiarity with Matlab or Python, or permission of instructor."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5820",
+        "prerequisites": "ENGRD 2700, ORIE 3300 or equivalent."
+      },
+      {
+        "subject": "ORIE",
+        "number": "5915",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5925",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "5999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "6150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "6300",
+        "prerequisites": "advanced calculus and elementary linear algebra."
+      },
+      {
+        "subject": "ORIE",
+        "number": "6336",
+        "prerequisites": "ORIE 6300."
+      },
+      {
+        "subject": "ORIE",
+        "number": "6500",
+        "prerequisites": "one-semester calculus-based probability course."
+      },
+      {
+        "subject": "ORIE",
+        "number": "6580",
+        "prerequisites": "computing experience and ORIE 6500 or equivalent, or permission of instructor."
+      },
+      {
+        "subject": "ORIE",
+        "number": "6700",
+        "prerequisites": "undergraduate probability/statistics course."
+      },
+      {
+        "subject": "ORIE",
+        "number": "6731",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "7170",
+        "prerequisites": "BTRY 4090 or MATH 4720, BTRY 6020, or equivalents."
+      },
+      {
+        "subject": "ORIE",
+        "number": "7590",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "7999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ORIE",
+        "number": "9000",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "PHIL": {
+    "total_courses": 52,
+    "courses": [
+      {
+        "subject": "PHIL",
+        "number": "1100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1111",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1112",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1450",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1620",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1621",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "1950",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2310",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2410",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2420",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2430",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2441",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2473",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2510",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2525",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2621",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2835",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "2990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "3203",
+        "prerequisites": "at least one previous course in philosophy at the 2000 level or above, or permission of the instructor."
+      },
+      {
+        "subject": "PHIL",
+        "number": "3222",
+        "prerequisites": "at least one prior course in philosophy, or permission of instructor."
+      },
+      {
+        "subject": "PHIL",
+        "number": "3475",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "3610",
+        "prerequisites": "one previous course in philosophy, or permission of the instructor."
+      },
+      {
+        "subject": "PHIL",
+        "number": "3830",
+        "prerequisites": "at least one prior course in Philosophy."
+      },
+      {
+        "subject": "PHIL",
+        "number": "4002",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "4200",
+        "prerequisites": "at least one prior course in philosophy."
+      },
+      {
+        "subject": "PHIL",
+        "number": "4611",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "4620",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "4710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "4730",
+        "prerequisites": "LING 3303 or permission of instructor."
+      },
+      {
+        "subject": "PHIL",
+        "number": "4900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "4901",
+        "prerequisites": "PHIL 4900."
+      },
+      {
+        "subject": "PHIL",
+        "number": "6010",
+        "prerequisites": "knowledge of Greek is essential."
+      },
+      {
+        "subject": "PHIL",
+        "number": "6020",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6040",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6203",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6222",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6475",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6494",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6610",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6611",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6620",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6730",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "6740",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "7000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "7900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "7910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHIL",
+        "number": "7950",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "PHYS": {
+    "total_courses": 49,
+    "courses": [
+      {
+        "subject": "PHYS",
+        "number": "1012",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "1013",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "1101",
+        "prerequisites": "three years of high school mathematics, including trigonometry."
+      },
+      {
+        "subject": "PHYS",
+        "number": "1110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "1112",
+        "prerequisites": "MATH 1910 or MATH 1120. Recommended corequisite: MATH 1920 in order to continue with PHYS 2213 the following semester. Corequisite: PHYS 1110 must be taken to remain enrolled in PHYS 1112. MATH 1910 may be allowed by instructor in exceptional cases, but continuation in PHYS 2213 will then have to be deferred until MATH 1920 is completed."
+      },
+      {
+        "subject": "PHYS",
+        "number": "1116",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "1190",
+        "prerequisites": "three transfer credits for introductory physics lecture material and a degree requirement for laboratory component of that introductory course."
+      },
+      {
+        "subject": "PHYS",
+        "number": "1201",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "1205",
+        "prerequisites": "students must be able to swim (75 yds or equivalent to university swim test requirement)."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2207",
+        "prerequisites": "high school physics plus MATH 1110 or MATH 1106, or solid understanding of the basic concepts of introductory calculus."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2210",
+        "prerequisites": "PHYS 1110."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2213",
+        "prerequisites": "PHYS 1112 (or strong performance in PHYS 2207) and one of MATH 1920, MATH 2220, or MATH 2240."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2214",
+        "prerequisites": "PHYS 2213 (or strong performance in PHYS 2208), plus vector calculus at the level of one of the following: MATH 1920, MATH 2220, or MATH 2240."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2216",
+        "prerequisites": "PHYS 1112 or PHYS 2207 or permission of instructor."
+      },
+      {
+        "subject": "PHYS",
+        "number": "2217",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "2218",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "3310",
+        "prerequisites": "PHYS 2208 or PHYS 2214 or PHYS 2218."
+      },
+      {
+        "subject": "PHYS",
+        "number": "3316",
+        "prerequisites": "PHYS 2214 or PHYS 2218; PHYS 1116 or PHYS 2216; and coregistration in MATH 2940 or  MATH 2210 or MATH 2230."
+      },
+      {
+        "subject": "PHYS",
+        "number": "3317",
+        "prerequisites": "PHYS 3316."
+      },
+      {
+        "subject": "PHYS",
+        "number": "3327",
+        "prerequisites": "PHYS 2217/PHYS 2218, or PHYS 2213/PHYS 2214. Recommended prerequisite: AEP 3200. Corequisite: AEP 4200 or appropriate mathematics course(s) that cover complex analysis, vector calculus, Fourier transforms and techniques for studying boundary value problems recommended."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4230",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4400",
+        "prerequisites": "two years physics."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4410",
+        "prerequisites": "PHYS 3327, PHYS 3318."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4445",
+        "prerequisites": "classical mechanics at the level of PHYS 3318 and special relativity at the level of PHYS 1116 or PHYS 2216. Electromagnetism at the level of PHYS 3327 is useful."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4454",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4480",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4484",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4485",
+        "prerequisites": "previous enrollment in course to be taught or equivalent, and concurrent or previous enrollment in PHYS 4484."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4486",
+        "prerequisites": "minimum grade of A in PHYS 1101/PHYS 1102/PHYS 2207/PHYS 2208, or A- in PHYS 1112/PHYS 2213, or B+ in PHYS 1116/PHYS 2217, or comparable AP or transfer credit."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4487",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4490",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "4498",
+        "prerequisites": "completion of the core requirements for the physics major."
+      },
+      {
+        "subject": "PHYS",
+        "number": "4997",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "5520",
+        "prerequisites": "statistical physics and/or thermodynamics; electrostatics; vector calculus; differential equations; basic scientific computing; introductory biology."
+      },
+      {
+        "subject": "PHYS",
+        "number": "6500",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "6510",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "6520",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "6561",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "6572",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7601",
+        "prerequisites": "MAE 3230 or higher, in addition to basic knowledge in vector calculus, ordinary differential equations, partial differential equations, and complex variable analysis."
+      },
+      {
+        "subject": "PHYS",
+        "number": "7635",
+        "prerequisites": "undergraduate statistical mechanics, and familiarity with graduate-level quantum mechanics. Recommended prerequisite: comprehensive undergraduate solid-state physics course (e.g., PHYS 4454)."
+      },
+      {
+        "subject": "PHYS",
+        "number": "7651",
+        "prerequisites": "PHYS 6572, and PHYS 6561 (one of these courses may be taken concurrently)."
+      },
+      {
+        "subject": "PHYS",
+        "number": "7653",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7667",
+        "prerequisites": "Math above 2000 level, physics above 3000 level."
+      },
+      {
+        "subject": "PHYS",
+        "number": "7680",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7684",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7685",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7687",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PHYS",
+        "number": "7690",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "STSCI": {
+    "total_courses": 47,
+    "courses": [
+      {
+        "subject": "STSCI",
+        "number": "2100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "2110",
+        "prerequisites": "AEM 2100, CRP 1200, ENGRD 2700, HADM 2010, ILRST 2100, MATH 1710, PUBPOL 2100, PUBPOL 2101, PSYCH 2500, SOC 3010, STSCI 2100, or STSCI 2150."
+      },
+      {
+        "subject": "STSCI",
+        "number": "2120",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "2130",
+        "prerequisites": "AEM 2100,CRP 1200, ENGRD 2700, HADM 2010, ILRST 2100, MATH 1710, PUBPOL 2100, PUBPOL 2101, PSYCH 2500, SOC 3010, STSCI 2100, or STSCI 2150."
+      },
+      {
+        "subject": "STSCI",
+        "number": "2150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "2200",
+        "prerequisites": "MATH 1110 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "2220",
+        "prerequisites": "STSCI 2120 or permission of instructor."
+      },
+      {
+        "subject": "STSCI",
+        "number": "3080",
+        "prerequisites": "STSCI 2150 or STSCI 2200, MATH 1120 and MATH 2220 or their equivalents."
+      },
+      {
+        "subject": "STSCI",
+        "number": "3090",
+        "prerequisites": "BTRY 3080 or permission from the instructor."
+      },
+      {
+        "subject": "STSCI",
+        "number": "3110",
+        "prerequisites": "MATH 1106 or MATH 1110."
+      },
+      {
+        "subject": "STSCI",
+        "number": "3600",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "3740",
+        "prerequisites": "CS 1112 or equivalent, MATH 2220, STSCI 3200, STSCI 3080 or MATH 4710."
+      },
+      {
+        "subject": "STSCI",
+        "number": "3900",
+        "prerequisites": "STSCI 2100 or PSYCH 2500 or SOC 3010 or ECON 3110 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4030",
+        "prerequisites": "STSCI 2150 or STSCI 2200/BTRY 3010, BTRY 3080, MATH 1920, MATH 2210 or their equivalents, STSCI 3200/BTRY 3020 or BTRY 6020."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4050",
+        "prerequisites": "STSCI 3080, STSCI 3200 or equivalents."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4060",
+        "prerequisites": "basic programming skills (any language), one introductory Statistics course, SQL (Oracle preferred)."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4090",
+        "prerequisites": "BTRY 3080 or MATH 4710 or equivalent and BTRY 3010 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4110",
+        "prerequisites": "BTRY 3020, BTRY 6020, or equivalent with BTRY 3080 or MATH 4710 also highly recommended."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4630",
+        "prerequisites": "engineering math through MATH 2940, ENGRD 2700 and ORIE 3500, and knowledge of R and multiple linear regression equivalent to ORIE 3120. No previous knowledge of finance required."
+      },
+      {
+        "subject": "STSCI",
+        "number": "4970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "4990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "4995",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "4999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5030",
+        "prerequisites": "STSCI 2150 or STSCI 2200/BTRY 3010, BTRY 3080, MATH 1920, MATH 2210 or their equivalents, STSCI 3200/BTRY 3020 or BTRY 6020."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5045",
+        "prerequisites": "STSCI 5060 (or basic SQL programming skill), and one intro statistics course."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5050",
+        "prerequisites": "STSCI 3200, STSCI 3080 or equivalents."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5060",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5080",
+        "prerequisites": "STSCI 2150 or STSCI 2200/BTRY 3010 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5090",
+        "prerequisites": "BTRY 3080 or MATH 4710, or equivalent and STSCI 2200 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5110",
+        "prerequisites": "STSCI 5200, BTRY 6010, ILRST 5100, or BTRY 5010."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5120",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5160",
+        "prerequisites": "BTRY 3020, BTRY 6020, or equivalent with BTRY 3080 or MATH 4710 also highly recommended."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5200",
+        "prerequisites": "MATH 1110 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5220",
+        "prerequisites": "STSCI 5120 or equivalent."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5600",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5630",
+        "prerequisites": "MATH 2940, ENGRD 2700, ORIE 3500, ORIE 3120."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5740",
+        "prerequisites": "CS 1112 or equivalent, MATH 2220, STSCI 3200, STSCI 3080 or MATH 4710."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5954",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "5990",
+        "prerequisites": "multicalculus, linear algebra, and basic statistics."
+      },
+      {
+        "subject": "STSCI",
+        "number": "5995",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "6520",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "6970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "7170",
+        "prerequisites": "BTRY 4090 or MATH 4720, BTRY 6020, or equivalents."
+      },
+      {
+        "subject": "STSCI",
+        "number": "7999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "STSCI",
+        "number": "9999",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "ECE": {
+    "total_courses": 55,
+    "courses": [
+      {
+        "subject": "ECE",
+        "number": "2100",
+        "prerequisites": "MATH 1920 or PHYS 1112. Corequisite: MATH 2930 or PHYS 2213."
+      },
+      {
+        "subject": "ECE",
+        "number": "2300",
+        "prerequisites": "CS 1110 or CS 1112."
+      },
+      {
+        "subject": "ECE",
+        "number": "2720",
+        "prerequisites": "MATH 1920 and either CS 1110 or CS 1112. Corequisite: MATH 2940."
+      },
+      {
+        "subject": "ECE",
+        "number": "3030",
+        "prerequisites": "PHYS 2213, MATH 2930, ECE 2100/ENGRD 2100."
+      },
+      {
+        "subject": "ECE",
+        "number": "3250",
+        "prerequisites": "MATH 2930, MATH 2940, or permission of instructor."
+      },
+      {
+        "subject": "ECE",
+        "number": "4060",
+        "prerequisites": "PHYS 2214, MATH 2930, or permission of instructor."
+      },
+      {
+        "subject": "ECE",
+        "number": "4110",
+        "prerequisites": "ECE 2720, ECE 3100, and ECE 3250 or equivalents."
+      },
+      {
+        "subject": "ECE",
+        "number": "4330",
+        "prerequisites": "ECE 3030 and ECE 3150."
+      },
+      {
+        "subject": "ECE",
+        "number": "4360",
+        "prerequisites": "MSE 2620 or ECE 3150, or equivalent that covers basics on semiconductors and semiconductor devices, MATH 2930-MATH 2940, CHEM 2090."
+      },
+      {
+        "subject": "ECE",
+        "number": "4361",
+        "prerequisites": "Prerequisite or corequisite: ECE 4360/MSE 5410, AEP 6620 or equivalents."
+      },
+      {
+        "subject": "ECE",
+        "number": "4450",
+        "prerequisites": "ECE 3100."
+      },
+      {
+        "subject": "ECE",
+        "number": "4510",
+        "prerequisites": "ECE 3250."
+      },
+      {
+        "subject": "ECE",
+        "number": "4530",
+        "prerequisites": "ECE 3150."
+      },
+      {
+        "subject": "ECE",
+        "number": "4560",
+        "prerequisites": "ECE 3150 or permission of instructor required."
+      },
+      {
+        "subject": "ECE",
+        "number": "4750",
+        "prerequisites": "ECE 3140/CS 3420 or CS 3410. Students should feel comfortable working with a hardware description language such as Verilog, SystemVerilog, or VHDL."
+      },
+      {
+        "subject": "ECE",
+        "number": "4760",
+        "prerequisites": "ECE 3140/CS 3420."
+      },
+      {
+        "subject": "ECE",
+        "number": "4770",
+        "prerequisites": "CS 1112, CS 2110, CS 2800, MATH 1920, MATH 2940 or their equivalents."
+      },
+      {
+        "subject": "ECE",
+        "number": "4800",
+        "prerequisites": "MATH 1920, MATH 2940. Highly recommended corequisite: ECE 3250."
+      },
+      {
+        "subject": "ECE",
+        "number": "4920",
+        "prerequisites": "ECE 4760 or ECE 5760."
+      },
+      {
+        "subject": "ECE",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "4999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5010",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5110",
+        "prerequisites": "ECE 2720, ECE 3100, and ECE 3250 or equivalents."
+      },
+      {
+        "subject": "ECE",
+        "number": "5120",
+        "prerequisites": "Prerequisite or corequisite: enrollment in group-based project with strong system design component approved by course instructor."
+      },
+      {
+        "subject": "ECE",
+        "number": "5235",
+        "prerequisites": "coursework in ML, data science, law and policy or ethics, calculus and algebra, algorithms, and python programming. Recommended prerequisite: coursework in theory and optimization."
+      },
+      {
+        "subject": "ECE",
+        "number": "5280",
+        "prerequisites": "ECE 3250, MATH 1920, MATH 2940."
+      },
+      {
+        "subject": "ECE",
+        "number": "5290",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5330",
+        "prerequisites": "PHYS 2214, MATH 2930, or permission of instructor."
+      },
+      {
+        "subject": "ECE",
+        "number": "5413",
+        "prerequisites": "CS 1110 or equivalent."
+      },
+      {
+        "subject": "ECE",
+        "number": "5414",
+        "prerequisites": "CS 2800 or equivalent and basic familiarity with Matlab or Python, or permission of instructor."
+      },
+      {
+        "subject": "ECE",
+        "number": "5415",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5510",
+        "prerequisites": "ECE 3250."
+      },
+      {
+        "subject": "ECE",
+        "number": "5530",
+        "prerequisites": "ECE 3150."
+      },
+      {
+        "subject": "ECE",
+        "number": "5560",
+        "prerequisites": "ECE 3150 or permission of instructor required."
+      },
+      {
+        "subject": "ECE",
+        "number": "5570",
+        "prerequisites": "ECE 3030 and ECE 3150."
+      },
+      {
+        "subject": "ECE",
+        "number": "5660",
+        "prerequisites": "ECE 3100."
+      },
+      {
+        "subject": "ECE",
+        "number": "5725",
+        "prerequisites": "ECE 3140/CS 3420."
+      },
+      {
+        "subject": "ECE",
+        "number": "5730",
+        "prerequisites": "ECE 3140/CS 3420."
+      },
+      {
+        "subject": "ECE",
+        "number": "5740",
+        "prerequisites": "ECE 3140/CS 3420 or CS 3410. Students should feel comfortable working with a hardware description language such as Verilog, SystemVerilog, or VHDL."
+      },
+      {
+        "subject": "ECE",
+        "number": "5746",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5755",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5810",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5870",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5995",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5997",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5998",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "5999",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "6630",
+        "prerequisites": "ECE 4110 or equivalent."
+      },
+      {
+        "subject": "ECE",
+        "number": "6775",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "6950",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "6960",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "7230",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "7235",
+        "prerequisites": "coursework in ML, data science, law and policy or ethics, calculus and algebra, algorithms, and python programming. Recommended prerequisite: coursework in theory and optimization."
+      },
+      {
+        "subject": "ECE",
+        "number": "7290",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "ECE",
+        "number": "7910",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "AEM": {
+    "total_courses": 124,
+    "courses": [
+      {
+        "subject": "AEM",
+        "number": "1101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "1600",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2010",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2011",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2050",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2180",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2210",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2220",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2225",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2240",
+        "prerequisites": "AEM 2100, AEM 2200 and AEM 2225, or equivalents."
+      },
+      {
+        "subject": "AEM",
+        "number": "2241",
+        "prerequisites": "AEM 2100, AEM 2210, or equivalents."
+      },
+      {
+        "subject": "AEM",
+        "number": "2350",
+        "prerequisites": "at least one full semester university course in introductory economics."
+      },
+      {
+        "subject": "AEM",
+        "number": "2400",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2500",
+        "prerequisites": "ECON 1110."
+      },
+      {
+        "subject": "AEM",
+        "number": "2555",
+        "prerequisites": "First-Year Writing Seminar or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "2600",
+        "prerequisites": "ECON 1110,  MATH 1110."
+      },
+      {
+        "subject": "AEM",
+        "number": "2700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2810",
+        "prerequisites": "ECON 1110, First-Year Writing Seminar."
+      },
+      {
+        "subject": "AEM",
+        "number": "2818",
+        "prerequisites": "First-Year Writing Seminar or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "2820",
+        "prerequisites": "AEM 2010."
+      },
+      {
+        "subject": "AEM",
+        "number": "2840",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "2850",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3000",
+        "prerequisites": "completion of Grand Challenges writing requirement or permission of instructor."
+      },
+      {
+        "subject": "AEM",
+        "number": "3005",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3020",
+        "prerequisites": "at least one of the following courses: AEM 1200, AEM 2050, AEM 2200, AEM 2240 / 2241, AEM 2310."
+      },
+      {
+        "subject": "AEM",
+        "number": "3050",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3100",
+        "prerequisites": "AEM 2100 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "3200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3205",
+        "prerequisites": "AEM 2200 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "3220",
+        "prerequisites": "AEM 2200 or ECON 1110."
+      },
+      {
+        "subject": "AEM",
+        "number": "3245",
+        "prerequisites": "AEM 1200 or AEM 2200 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "3249",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3255",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3270",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3310",
+        "prerequisites": "ECON 1110 or AEM 2200, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "3320",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3330",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "3360",
+        "prerequisites": "AEM 2225."
+      },
+      {
+        "subject": "AEM",
+        "number": "3385",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4000",
+        "prerequisites": "Grand Challenges writing course and AEM 3000."
+      },
+      {
+        "subject": "AEM",
+        "number": "4110",
+        "prerequisites": "AEM 2100, AEM 2600 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4150",
+        "prerequisites": "AEM 2100 and AEM 2600, or ECON 3030, or PUBPOL 2000, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4225",
+        "prerequisites": "AEM 2210 or AEM 2225, AEM 2100."
+      },
+      {
+        "subject": "AEM",
+        "number": "4230",
+        "prerequisites": "AEM 2240 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4400",
+        "prerequisites": "AEM 2420 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4401",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4415",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4420",
+        "prerequisites": "AEM 2420 and PUBPOL 2000, or ECON 3030, or AEM 2600."
+      },
+      {
+        "subject": "AEM",
+        "number": "4435",
+        "prerequisites": "AEM 2100, AEM 2420, AEM 2010, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4450",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4460",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4485",
+        "prerequisites": "ECON 1110, AEM 2100, or equivalent, and 9 additional credits in economics, applied economics, or nutrition. Recommended prerequisite: ECON 3140, NS 3600, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4490",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4520",
+        "prerequisites": "AEM 3360."
+      },
+      {
+        "subject": "AEM",
+        "number": "4530",
+        "prerequisites": "AEM 3360."
+      },
+      {
+        "subject": "AEM",
+        "number": "4531",
+        "prerequisites": "AEM 2225 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4533",
+        "prerequisites": "AEM 2225 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4545",
+        "prerequisites": "ECON 3040 and ECON 3120 or ECON 3140 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4570",
+        "prerequisites": "AEM 2240."
+      },
+      {
+        "subject": "AEM",
+        "number": "4585",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4650",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4660",
+        "prerequisites": "AEM 2210, AEM 2225, or equivalent. Corequisite: AEM 2240, AEM 2241, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4665",
+        "prerequisites": "AEM 2225, AEM 2240, or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "4670",
+        "prerequisites": "AEM 2240."
+      },
+      {
+        "subject": "AEM",
+        "number": "4880",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4961",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "4990",
+        "prerequisites": "GPA of at least 2.7."
+      },
+      {
+        "subject": "AEM",
+        "number": "4992",
+        "prerequisites": "GPA of at least 2.7."
+      },
+      {
+        "subject": "AEM",
+        "number": "5111",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5220",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5225",
+        "prerequisites": "AEM 2210 or AEM 2225, AEM 2100."
+      },
+      {
+        "subject": "AEM",
+        "number": "5230",
+        "prerequisites": "AEM 2240 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "5255",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5270",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5300",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5305",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5310",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5320",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5400",
+        "prerequisites": "AEM 2420 or equivalent,"
+      },
+      {
+        "subject": "AEM",
+        "number": "5415",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5420",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5435",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5550",
+        "prerequisites": "AEM 2100, ECON 1110 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "5570",
+        "prerequisites": "coursework in introductory finance."
+      },
+      {
+        "subject": "AEM",
+        "number": "5585",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5600",
+        "prerequisites": "ECON 1110, ECON 1120, MATH 1110 or equivalents."
+      },
+      {
+        "subject": "AEM",
+        "number": "5650",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5670",
+        "prerequisites": "coursework in introductory finance."
+      },
+      {
+        "subject": "AEM",
+        "number": "5700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5710",
+        "prerequisites": "HADM 1650, AEM 2700 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "5840",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "5850",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6080",
+        "prerequisites": "ECON 3030, MATH 1110 or equivalents."
+      },
+      {
+        "subject": "AEM",
+        "number": "6120",
+        "prerequisites": "AEM 2100, MATH 1110 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "6140",
+        "prerequisites": "AEM 2600 or ECON 3030 or PUBPOL 2000 or equivalent."
+      },
+      {
+        "subject": "AEM",
+        "number": "6145",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6245",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6325",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6401",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6455",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6485",
+        "prerequisites": "ECON 1110, AEM 2100, or equivalent, and 9 additional credits in economics, applied economics, or nutrition. Recommended prerequisite: ECON 3140, NS 3600, or equivalents."
+      },
+      {
+        "subject": "AEM",
+        "number": "6490",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6533",
+        "prerequisites": "AEM 4531 or LAW 6441."
+      },
+      {
+        "subject": "AEM",
+        "number": "6700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6850",
+        "prerequisites": "AEM 6120 or higher."
+      },
+      {
+        "subject": "AEM",
+        "number": "6880",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6960",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "6991",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "7000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "7150",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "7620",
+        "prerequisites": "completion of first-year Ph.D. course sequence in AEM or ECON or permission of instructor."
+      },
+      {
+        "subject": "AEM",
+        "number": "7670",
+        "prerequisites": "basic Ph.D. level courses in macroeconomics and applied econometrics."
+      },
+      {
+        "subject": "AEM",
+        "number": "7852",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "7900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "8900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "AEM",
+        "number": "9900",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "BTRY": {
+    "total_courses": 17,
+    "courses": [
+      {
+        "subject": "BTRY",
+        "number": "3010",
+        "prerequisites": "MATH 1110 or equivalent."
+      },
+      {
+        "subject": "BTRY",
+        "number": "3080",
+        "prerequisites": "STSCI 2150 or STSCI 2200, MATH 1120 and MATH 2220 or their equivalents."
+      },
+      {
+        "subject": "BTRY",
+        "number": "3090",
+        "prerequisites": "BTRY 3080 or permission from the instructor."
+      },
+      {
+        "subject": "BTRY",
+        "number": "4030",
+        "prerequisites": "STSCI 2150 or STSCI 2200/BTRY 3010, BTRY 3080, MATH 1920, MATH 2210 or their equivalents, STSCI 3200/BTRY 3020 or BTRY 6020."
+      },
+      {
+        "subject": "BTRY",
+        "number": "4090",
+        "prerequisites": "BTRY 3080 or MATH 4710 or equivalent and BTRY 3010 or equivalent."
+      },
+      {
+        "subject": "BTRY",
+        "number": "4110",
+        "prerequisites": "BTRY 3020, BTRY 6020, or equivalent with BTRY 3080 or MATH 4710 also highly recommended."
+      },
+      {
+        "subject": "BTRY",
+        "number": "4970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "4980",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "4990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "5010",
+        "prerequisites": "MATH 1110 or equivalent."
+      },
+      {
+        "subject": "BTRY",
+        "number": "5090",
+        "prerequisites": "BTRY 3080 or MATH 4710, or equivalent and STSCI 2200 or equivalent."
+      },
+      {
+        "subject": "BTRY",
+        "number": "6010",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "6970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "7900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "7980",
+        "prerequisites": "at least two advanced courses in statistics and biometry."
+      },
+      {
+        "subject": "BTRY",
+        "number": "8900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "BTRY",
+        "number": "9900",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "PUBPOL": {
+    "total_courses": 133,
+    "courses": [
+      {
+        "subject": "PUBPOL",
+        "number": "1111",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "1510",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "1520",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "1530",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2040",
+        "prerequisites": "PUBPOL 2000."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2060",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2155",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2220",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2250",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2301",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2350",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2370",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2400",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2600",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2817",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2830",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "2857",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3015",
+        "prerequisites": "ECON 1110."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3050",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3080",
+        "prerequisites": "PUBPOL 2000 or equivalent and PUBPOL 3100 or equivalent."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3135",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3161",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3190",
+        "prerequisites": "PUBPOL 2000 or ECON 3030 (or equivalent) and PUBPOL 3100 (or an equivalent course in basic econometrics)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3230",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3280",
+        "prerequisites": "Recommended prerequisite: at least one of the following GDEV 2200, HD 1150, HD 1170, HD 2180, PUBPOL 2030, PUBPOL 2100, PUBPOL 2208, PUBPOL 2300, PUBPOL 2350, PSYCH 1101, SOC 1101."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3400",
+        "prerequisites": "PUBPOL 2000 (or equivalent) or with instructor permission."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3520",
+        "prerequisites": "PUBPOL 3100 (or equivalent) and MATH 1110 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3560",
+        "prerequisites": "ECON 1110 (or equivalent) or PUBPOL 5210 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3610",
+        "prerequisites": "PUBPOL 2000 or ECON 3030."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3650",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3670",
+        "prerequisites": "ECON 1110."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3720",
+        "prerequisites": "PUBPOL 2300 or PUBPOL 2350 or PUBPOL 3280."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3764",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3790",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "3840",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4010",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4020",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4030",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4080",
+        "prerequisites": "PUBPOL 2030."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4370",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4390",
+        "prerequisites": "PUBPOL 3100 or equivalent."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4640",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4717",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4960",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4980",
+        "prerequisites": "PUBPOL 3120."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "4990",
+        "prerequisites": "PUBPOL 3120."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5009",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5015",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5023",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5030",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5050",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5080",
+        "prerequisites": "PUBPOL 2000 and PUBPOL 3100 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5110",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5111",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5119",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5120",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5122",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5135",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5155",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5190",
+        "prerequisites": "PUBPOL 2000 or ECON 3030 (or equivalent) and PUBPOL 3100 (or an equivalent course in basic econometrics)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5210",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5310",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5313",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5340",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5343",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5360",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5362",
+        "prerequisites": "enrollment in Executive Master of Public Administration (EMPA) Program."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5370",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5390",
+        "prerequisites": "PUPPOL 5301 and PUBPOL 5302 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5400",
+        "prerequisites": "PUBPOL 2000 (or equivalent) and ECON 3030 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5423",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5424",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5425",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5433",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5435",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5442",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5455",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5500",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5543",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5560",
+        "prerequisites": "ECON 1110 (or equivalent) or PUBPOL 5210 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5563",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5570",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5583",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5619",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5630",
+        "prerequisites": "PUBPOL 5620."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5650",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5659",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5660",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5663",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5679",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5690",
+        "prerequisites": "at least one statistics course."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5703",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5717",
+        "prerequisites": "PUBPOL 5210 or ECON 3030 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5720",
+        "prerequisites": "PUBPOL 2300 or PUBPOL 2350 or PUBPOL 3280."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5734",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5767",
+        "prerequisites": "enrollment in the Executive Master of Public Administration (EMPA) Program."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5783",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5787",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5790",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5823",
+        "prerequisites": "PUBPOL 5813."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5840",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5848",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5853",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5859",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5920",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5930",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5943",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5950",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5951",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5953",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5954",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5960",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5970",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "5990",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6040",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6060",
+        "prerequisites": "statistics."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6090",
+        "prerequisites": "ILRLE 7490 or AEM 7100 (or equivalent)."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6810",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "6971",
+        "prerequisites": "students must pass the micro and econometrics qualifying exams in economics, OR be a PUBPOL/AEM Ph.D. student in good academic standing."
+      },
+      {
+        "subject": "PUBPOL",
+        "number": "8990",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "CEE": {
+    "total_courses": 74,
+    "courses": [
+      {
+        "subject": "CEE",
+        "number": "1160",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "1165",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "3040",
+        "prerequisites": "MATH 1910 and MATH 1920, or equivalents."
+      },
+      {
+        "subject": "CEE",
+        "number": "3090",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "3101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "3310",
+        "prerequisites": "MATH 2930, or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "3410",
+        "prerequisites": "ENGRD 2020 or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "3790",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "4000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "4010",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "4090",
+        "prerequisites": "adequate training for work proposed."
+      },
+      {
+        "subject": "CEE",
+        "number": "4200",
+        "prerequisites": "CS 1110 or CS 1112 and CEE 3040 or ENGRD 2700."
+      },
+      {
+        "subject": "CEE",
+        "number": "4210",
+        "prerequisites": "BEE 3310, CEE 3310, CHEME 3230, or by permission of the instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "4510",
+        "prerequisites": "CHEM 2090 and CHEM 1570, or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "4535",
+        "prerequisites": "CHEM 2090 or equivalent for undergraduates."
+      },
+      {
+        "subject": "CEE",
+        "number": "4560",
+        "prerequisites": "CEE 3510."
+      },
+      {
+        "subject": "CEE",
+        "number": "4570",
+        "prerequisites": "CEE 3510 or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "4640",
+        "prerequisites": "CEE 3040 or ENGRD 2700, and CEE 3610, or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "4665",
+        "prerequisites": "MATH 2940 or equivalent, ability to program in Matlab or Python."
+      },
+      {
+        "subject": "CEE",
+        "number": "4745",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "4760",
+        "prerequisites": "CEE 3710 or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "4930",
+        "prerequisites": "CEE 3230 and CEE 3040, or equivalent."
+      },
+      {
+        "subject": "CEE",
+        "number": "5025",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5031",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5051",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5061",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5200",
+        "prerequisites": "CEE 3040 or ENGRD 2700, CEE 3230 or ENMGT 5940."
+      },
+      {
+        "subject": "CEE",
+        "number": "5240",
+        "prerequisites": "Prerequisite or corequisite: enrollment in group-based project with strong system design component approved by course instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "5510",
+        "prerequisites": "CHEM 2090 and CHEM 1570, or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "5665",
+        "prerequisites": "MATH 2940 or equivalent, ability to program in Matlab or Python."
+      },
+      {
+        "subject": "CEE",
+        "number": "5735",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5746",
+        "prerequisites": "CEE 3710 and CEE 3080 or graduate standing."
+      },
+      {
+        "subject": "CEE",
+        "number": "5760",
+        "prerequisites": "CEE 3710 or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "5770",
+        "prerequisites": "CEE 4740 or CEE 4760, or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "5790",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5820",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5900",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5930",
+        "prerequisites": "CEE 3040 or equivalent."
+      },
+      {
+        "subject": "CEE",
+        "number": "5950",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "5980",
+        "prerequisites": "at least one of the following courses: CEE 3040, ENGRD 2700, ILRST 2100, BTRY 3010, AEM 2100, or equivalent."
+      },
+      {
+        "subject": "CEE",
+        "number": "6000",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6020",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6035",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6055",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6065",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6070",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6075",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6095",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6210",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6530",
+        "prerequisites": "undergraduates need one semester of college chemistry or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "6560",
+        "prerequisites": "CEE 3510 for undergraduates or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "6570",
+        "prerequisites": "CEE 3510 or permission of instructor."
+      },
+      {
+        "subject": "CEE",
+        "number": "6648",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6680",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6736",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6790",
+        "prerequisites": "MATH 2940 or equivalent."
+      },
+      {
+        "subject": "CEE",
+        "number": "6910",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "6940",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7020",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7030",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7040",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7050",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7070",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "7073",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8200",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8300",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8400",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8500",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8600",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8700",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "CEE",
+        "number": "8800",
+        "prerequisites": "None specified"
+      }
+    ]
+  },
+  "LING": {
+    "total_courses": 38,
+    "courses": [
+      {
+        "subject": "LING",
+        "number": "1100",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "1101",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "1104",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "1141",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "1170",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "2223",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "2224",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "2261",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "3303",
+        "prerequisites": "LING 1101 or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "3315",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "3324",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "3390",
+        "prerequisites": "LING 1101, and permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "4401",
+        "prerequisites": "LING 3302 [B+ or above] or equivalent, or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "4403",
+        "prerequisites": "LING 3303 or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "4406",
+        "prerequisites": "ASL 1102 or LING 1101."
+      },
+      {
+        "subject": "LING",
+        "number": "4411",
+        "prerequisites": "reading knowledge of Japanese."
+      },
+      {
+        "subject": "LING",
+        "number": "4419",
+        "prerequisites": "LING 3302 [B+ or above] or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "4421",
+        "prerequisites": "LING 3303 or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "4434",
+        "prerequisites": "LING 4424 and one other 3000 level or above linguistics course."
+      },
+      {
+        "subject": "LING",
+        "number": "4491",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "4493",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "4712",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6261",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6324",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6401",
+        "prerequisites": "LING 3302 (B+ or above) or equivalent, or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6403",
+        "prerequisites": "LING 3303 or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6419",
+        "prerequisites": "LING 3302 (B+ or above) or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6421",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6434",
+        "prerequisites": "LING 6424 or permission from instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6600",
+        "prerequisites": "LING 4401/LING 6401 and LING 4403/LING 6403, or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6601",
+        "prerequisites": "LING 6402 or LING 6419 or permission of instructor."
+      },
+      {
+        "subject": "LING",
+        "number": "6634",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6692",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6693",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "6694",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "7701",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "7710",
+        "prerequisites": "None specified"
+      },
+      {
+        "subject": "LING",
+        "number": "7711",
+        "prerequisites": "None specified"
+      }
+    ]
+  }
+}
